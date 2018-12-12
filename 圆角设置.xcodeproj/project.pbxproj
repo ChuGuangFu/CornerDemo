@@ -15,6 +15,10 @@
 		040C3B8321BA3FF100F54CE1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 040C3B8221BA3FF100F54CE1 /* main.m */; };
 		040C3B8D21BA3FF100F54CE1 /* ____Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 040C3B8C21BA3FF100F54CE1 /* ____Tests.m */; };
 		040C3B9821BA3FF100F54CE1 /* ____UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 040C3B9721BA3FF100F54CE1 /* ____UITests.m */; };
+		040C3BA721BA444100F54CE1 /* CornerTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 040C3BA621BA444100F54CE1 /* CornerTableViewCell.m */; };
+		040C3BA921BA45E400F54CE1 /* img_001.png in Resources */ = {isa = PBXBuildFile; fileRef = 040C3BA821BA45E400F54CE1 /* img_001.png */; };
+		04AA070021BA6CD4006FE3CC /* UIImageView+loadImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 04AA06FF21BA6CD4006FE3CC /* UIImageView+loadImage.m */; };
+		8CBC8663203E061DF7A94747 /* libPods-圆角设置.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C9EACE178A7583A8B800DF9E /* libPods-圆角设置.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +55,14 @@
 		040C3B9321BA3FF100F54CE1 /* 圆角设置UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "圆角设置UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		040C3B9721BA3FF100F54CE1 /* ____UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "____UITests.m"; sourceTree = "<group>"; };
 		040C3B9921BA3FF100F54CE1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		040C3BA521BA444100F54CE1 /* CornerTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CornerTableViewCell.h; sourceTree = "<group>"; };
+		040C3BA621BA444100F54CE1 /* CornerTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CornerTableViewCell.m; sourceTree = "<group>"; };
+		040C3BA821BA45E400F54CE1 /* img_001.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = img_001.png; sourceTree = "<group>"; };
+		04AA06FE21BA6CD4006FE3CC /* UIImageView+loadImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+loadImage.h"; sourceTree = "<group>"; };
+		04AA06FF21BA6CD4006FE3CC /* UIImageView+loadImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+loadImage.m"; sourceTree = "<group>"; };
+		1ACD513B2CE4D13D2682143F /* Pods-圆角设置.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-圆角设置.debug.xcconfig"; path = "Pods/Target Support Files/Pods-圆角设置/Pods-圆角设置.debug.xcconfig"; sourceTree = "<group>"; };
+		50A7CB0F9B977A2B944BC6FB /* Pods-圆角设置.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-圆角设置.release.xcconfig"; path = "Pods/Target Support Files/Pods-圆角设置/Pods-圆角设置.release.xcconfig"; sourceTree = "<group>"; };
+		C9EACE178A7583A8B800DF9E /* libPods-圆角设置.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-圆角设置.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +70,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8CBC8663203E061DF7A94747 /* libPods-圆角设置.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -85,6 +98,8 @@
 				040C3B8B21BA3FF100F54CE1 /* 圆角设置Tests */,
 				040C3B9621BA3FF100F54CE1 /* 圆角设置UITests */,
 				040C3B7121BA3FEF00F54CE1 /* Products */,
+				73E50DCA079F725573566E0F /* Pods */,
+				51C13885B0700B17E10B18BE /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,6 +116,9 @@
 		040C3B7221BA3FEF00F54CE1 /* 圆角设置 */ = {
 			isa = PBXGroup;
 			children = (
+				04AA06FE21BA6CD4006FE3CC /* UIImageView+loadImage.h */,
+				04AA06FF21BA6CD4006FE3CC /* UIImageView+loadImage.m */,
+				040C3BA821BA45E400F54CE1 /* img_001.png */,
 				040C3B7321BA3FEF00F54CE1 /* AppDelegate.h */,
 				040C3B7421BA3FEF00F54CE1 /* AppDelegate.m */,
 				040C3B7621BA3FEF00F54CE1 /* ViewController.h */,
@@ -110,6 +128,8 @@
 				040C3B7E21BA3FF100F54CE1 /* LaunchScreen.storyboard */,
 				040C3B8121BA3FF100F54CE1 /* Info.plist */,
 				040C3B8221BA3FF100F54CE1 /* main.m */,
+				040C3BA521BA444100F54CE1 /* CornerTableViewCell.h */,
+				040C3BA621BA444100F54CE1 /* CornerTableViewCell.m */,
 			);
 			path = "圆角设置";
 			sourceTree = "<group>";
@@ -132,6 +152,23 @@
 			path = "圆角设置UITests";
 			sourceTree = "<group>";
 		};
+		51C13885B0700B17E10B18BE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C9EACE178A7583A8B800DF9E /* libPods-圆角设置.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		73E50DCA079F725573566E0F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1ACD513B2CE4D13D2682143F /* Pods-圆角设置.debug.xcconfig */,
+				50A7CB0F9B977A2B944BC6FB /* Pods-圆角设置.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -139,6 +176,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 040C3B9C21BA3FF100F54CE1 /* Build configuration list for PBXNativeTarget "圆角设置" */;
 			buildPhases = (
+				D43984FBD99F198C4A65DF4F /* [CP] Check Pods Manifest.lock */,
 				040C3B6C21BA3FEF00F54CE1 /* Sources */,
 				040C3B6D21BA3FEF00F54CE1 /* Frameworks */,
 				040C3B6E21BA3FEF00F54CE1 /* Resources */,
@@ -238,6 +276,7 @@
 				040C3B8021BA3FF100F54CE1 /* LaunchScreen.storyboard in Resources */,
 				040C3B7D21BA3FF100F54CE1 /* Assets.xcassets in Resources */,
 				040C3B7B21BA3FEF00F54CE1 /* Main.storyboard in Resources */,
+				040C3BA921BA45E400F54CE1 /* img_001.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -257,13 +296,40 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		D43984FBD99F198C4A65DF4F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-圆角设置-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		040C3B6C21BA3FEF00F54CE1 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				040C3BA721BA444100F54CE1 /* CornerTableViewCell.m in Sources */,
 				040C3B7821BA3FEF00F54CE1 /* ViewController.m in Sources */,
 				040C3B8321BA3FF100F54CE1 /* main.m in Sources */,
+				04AA070021BA6CD4006FE3CC /* UIImageView+loadImage.m in Sources */,
 				040C3B7521BA3FEF00F54CE1 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -433,10 +499,13 @@
 		};
 		040C3B9D21BA3FF100F54CE1 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1ACD513B2CE4D13D2682143F /* Pods-圆角设置.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = SGV8QBPM82;
 				INFOPLIST_FILE = "圆角设置/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -449,10 +518,13 @@
 		};
 		040C3B9E21BA3FF100F54CE1 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 50A7CB0F9B977A2B944BC6FB /* Pods-圆角设置.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = SGV8QBPM82;
 				INFOPLIST_FILE = "圆角设置/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
