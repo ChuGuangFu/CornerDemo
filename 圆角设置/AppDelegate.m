@@ -20,6 +20,8 @@
     
     [[SDImageCache sharedImageCache] clearDiskOnCompletion:nil];
     
+    NSLog(@"sss");
+    
     return YES;
 }
 
